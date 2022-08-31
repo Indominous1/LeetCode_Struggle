@@ -46,6 +46,11 @@ Constraints:
 -> 1 <= operations.length <= 100
 -> operations[i] will be either "++X", "X++", "--X", or "X--".
   
+Related Topics:
+> Array
+> String
+> Simulation
+
  --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Solution-
   
