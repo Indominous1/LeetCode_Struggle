@@ -32,14 +32,14 @@ Solution-
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
-        int c=0;
-        vector<int> v;
         for(int i=0;i<grid.size();i++)
-            v.insert(v.end(),grid[i].begin(),grid[i].end());
-        for(auto itr : v)
-         {
-             if(itr<0)
-              c++;
-         }
+        {
+            int j=grid[i].size()-1;
+            while(j>=0 && grid[i][j]<0)
+            {
+                c++;
+                j--;
+            }
+        }
    return c; }
 };
