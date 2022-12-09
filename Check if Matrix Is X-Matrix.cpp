@@ -25,7 +25,7 @@ Thus, grid is not an X-Matrix.
 Constraints:
 -> n == grid.length == grid[i].length
 -> 3 <= n <= 100
--> 0 <= grid[i][j] <= 105
+-> 0 <= grid[i][j] <= 10^5
   
 Related Topics-
 > Array
