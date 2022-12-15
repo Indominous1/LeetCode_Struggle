@@ -14,8 +14,8 @@ Output: 2
  
 Constraints:
 -> n == nums.length
--> 1 <= n <= 5 * 104
--> -109 <= nums[i] <= 109
+-> 1 <= n <= 5 * 10^4
+-> -109 <= nums[i] <= 10^9
 
 Related Topics-
 > Array
@@ -28,20 +28,20 @@ Related Topics-
 Solution-
 class Solution {
 public:
-    int findLucky(vector<int>& arr) {
+    int majorityElement(vector<int>& n) {
         map<int,int>mp;
-        int l=-1;
-        for(int i=0;i<arr.size();i++)
-        {
-            mp[arr[i]]++;
-        }
+        int mx=INT_MIN,y;
+        for(int i=0;i<n.size();i++)
+            mp[n[i]]++;
+     
         for(auto itr=mp.begin();itr!=mp.end();itr++)
         {
-            if(itr->first==itr->second && l<itr->first)
+            if(itr->second>mx)
             {
-                l=itr->first;
+                mx=itr->second;
+                y=itr->first;
             }
         }
-   return l; }
+  return y;  }
 };
 
