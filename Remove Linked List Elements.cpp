@@ -43,7 +43,7 @@ public:
             }
             return head;
         }
-        while(temp->next && head)
+        while(temp->next && head) 
         {
             if(head->val==val)
             {
