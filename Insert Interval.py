@@ -60,3 +60,5 @@ class Solution(object):
                 e = max(e, cur_interval[END])
                 
         return left + [ [s, e] ] + right 
+
+      
