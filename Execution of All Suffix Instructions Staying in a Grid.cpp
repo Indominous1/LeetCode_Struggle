@@ -8,7 +8,7 @@ where startPos = [startrow, startcol] indicates that a robot is initially at cel
 - The next instruction will move the robot off the grid.
 - There are no more instructions left to execute.
 
-Return an array answer of length m where answer[i] is the number of instructions the robot can execute if the robot begins executing from the ith instruction in s.
+> Return an array answer of length m where answer[i] is the number of instructions the robot can execute if the robot begins executing from the ith instruction in s.
 
 Example 1:
 Input: n = 3, startPos = [0,1], s = "RRDDLU"
