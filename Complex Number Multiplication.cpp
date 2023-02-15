@@ -38,7 +38,7 @@ public:
         int j1=s1.find('+'),j2=s2.find('+');
         
         int rn1=stoi(s1.substr(0,j1));
-        int rn2=stoi(s2.substr(0,j2));
+       / int rn2=stoi(s2.substr(0,j2));
         int in1=stoi(s1.substr(j1+1,s1.size()-1-j1));
         int in2=stoi(s2.substr(j2+1,s2.size()-1-j2));
         
@@ -50,4 +50,5 @@ public:
         return ans;
     }
 };
+
 
