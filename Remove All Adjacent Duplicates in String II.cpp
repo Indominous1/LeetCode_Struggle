@@ -11,7 +11,7 @@ Input: s = "abcd", k = 2
 Output: "abcd"
 
 Explanation:
-- There's nothing to delete.
+- There nothing to delete.
 
 Example 2:
 Input: s = "deeedbbcccbdaa", k = 3
