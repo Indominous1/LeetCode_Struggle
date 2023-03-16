@@ -1,2 +1,2 @@
 # LeetCode_Struggle
-This Repository contains my Daily LeetCode Solutions
+This Repository contains Everyday Practice on LeetCode Platform
