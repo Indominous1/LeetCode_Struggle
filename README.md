@@ -1,2 +1,2 @@
 # LeetCode_Struggle
-This Repository contains Everyday Practice on LeetCode Platform
+The given repository contains solutions to the problems attempted by me.
