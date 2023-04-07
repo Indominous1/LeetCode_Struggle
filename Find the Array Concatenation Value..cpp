@@ -33,8 +33,6 @@ Example 2:
 Input: nums = [5,14,13,8,12]
 
 Output: 673
-
- 
  
 Explanation:
 Before performing any operation, nums is [5,14,13,8,12] and concatenation value is 0.
@@ -89,5 +87,4 @@ public:
         return sum;
     }
 };
-
 
